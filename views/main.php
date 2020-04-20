@@ -163,7 +163,7 @@ foreach ($sites as $site) {
 
 
 
-	echo "<tr id=\"tr_$domain\"><td><a href=\"http://$domain/\" target=_blank><img class=fav src=\"http://favicon.yandex.net/favicon/$domain\" width=16 height=16></a> <a href=\"?site=$domain"; 
+	echo "<tr id=\"tr_$domain\"><td><a href=\"http://$domain/\" target=_blank><img class=fav src=\"//favicon.yandex.net/favicon/$domain\" width=16 height=16></a> <a href=\"?site=$domain"; 
 	echo ($cat!="index") ? "&cat=$cat" : "";
 	echo ($period!="") ? "&period=$period" : "";
 
